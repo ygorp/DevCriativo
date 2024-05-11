@@ -168,3 +168,60 @@ section.especialidades .flex {
     font-size: 28px;
     margin: 20px 0;
 }
+
+/* Estilo Sobre */
+
+section.sobre {
+    padding: 40px 4%;
+    margin-top: 60px;
+}
+
+section.sobre .img-sobre img {
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.sobre .txt-sobre {
+    color: var(--quaternary-color);
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 45px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: var(--secondary-color);
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0 6px;
+}
+
+.sobre .txt-sobre .btn-social button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px var(--secondary-color);
+}
