@@ -89,7 +89,8 @@ header nav ul li {
     padding: 0 40px;
 }
 
-.btn-contato button:hover {
+button:hover,
+form .btn-enviar input:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 8px var(--secondary-color);
 }
@@ -276,4 +277,55 @@ section.portifolio .grid {
 
 .overlay:hover {
     opacity: 1;
+}
+
+/* Estilo Formulário */
+
+section.formulario {
+    padding: 80px 4%;
+    margin-top: 60px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: var(--quaternary-color);
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
