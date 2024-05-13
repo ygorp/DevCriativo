@@ -91,6 +91,12 @@ header nav.menu-desktop ul li {
 
 /* Estilo menu mobile */
 
+.btn-abrir-menu i {
+    font-size: 40px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
 .menu-mobile {
     background-color: var(--primary-color);
     height: 100vh;
@@ -98,7 +104,8 @@ header nav.menu-desktop ul li {
     top: 0;
     right: 0;
     z-index: 999999;
-    width: 70%;
+    width: 0%;
+    overflow: hidden;
 }
 
 .menu-mobile nav ul {
@@ -127,6 +134,17 @@ header nav.menu-desktop ul li {
     font-size: 30px;
     color: var(--secondary-color);
     cursor: pointer;
+}
+
+.overlay-menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 88888;
+    display: none;
 }
 
 button:hover,
