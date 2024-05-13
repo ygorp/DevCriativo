@@ -95,6 +95,7 @@ header nav.menu-desktop ul li {
     font-size: 40px;
     color: var(--secondary-color);
     cursor: pointer;
+    display: none;
 }
 
 .menu-mobile {
@@ -492,5 +493,8 @@ footer .line-footer p a {
     }
     .btn-social button i {
         font-size: 20px;
+    }
+    .btn-abrir-menu i {
+        display: block;
     }
 }
