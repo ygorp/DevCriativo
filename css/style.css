@@ -363,3 +363,63 @@ footer .line-footer p a {
     text-decoration: none;
     color: var(--quaternary-color);
 }
+
+/* Estilo Responsivo */
+
+@media screen and (max-width: 1020px) {
+    /* Cabeçalho */
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+    .img-topo-site img {
+        width: 100%;
+    }
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        font-size: 30px;
+    }
+    .topo-do-site .txt-topo-site p {
+        font-size: 18px;
+    }
+    .img-sobre img {
+        width: 100%;
+        height: auto;
+    }
+    .sobre .txt-sobre h2 {
+        font-size: 30px;
+    }
+    .sobre .txt-sobre p {
+        font-size: 16px;
+    }
+    section.portifolio .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-port {
+        width: 100%;
+        height: 300px;
+        margin-top: 30px;
+    }
+    section .titulo {
+        font-size: 30px;
+    }
+    .logo-footer img {
+        margin-bottom: 20px;
+    }
+    .btn-social button {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .btn-social button i {
+        font-size: 20px;
+    }
+}
