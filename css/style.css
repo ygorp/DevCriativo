@@ -348,6 +348,75 @@ section.portifolio .grid {
     opacity: 1;
 }
 
+/* Valores serviços */
+
+section.valores {
+    padding: 40px 4%;
+    margin-top: 60px;
+}
+
+section.valores .flex {
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+section.valores .flex .servico {
+    color: var(--primary-color);
+    background-color: var(--quaternary-color);
+    padding: 40px;
+    box-shadow: 0px 0px 8px var(--secondary-color);
+    margin-top: 60px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+section.valores .flex .servico h3 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: underline;
+}
+
+section.valores .flex .servico p {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+section.valores .flex .servico p i {
+    color: var(--secondary-color);
+}
+
+section.valores .flex .servico div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+section.valores .flex .servico div p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+section.valores .flex .servico a button {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
 /* Estilo Formulário */
 
 section.formulario {
@@ -470,6 +539,9 @@ footer .line-footer p a {
         flex-direction: column-reverse;
     }
     .sobre .txt-sobre p {
+        font-size: 16px;
+    }
+    section.valores .flex .servico p {
         font-size: 16px;
     }
     section.portifolio .grid {
